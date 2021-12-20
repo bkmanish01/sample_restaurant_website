@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+	        Author: Manish Bishowkarma
+	        Date:   12/09/2021
+
+	        File: contact.html
+	    -->
+	        
+	    <meta charset="utf-8" />         
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+		<title>Mo:Mo Shack|Bandipur|Tanahun|Nepal</title>
+		<link rel="stylesheet" type="text/css" href="../css/contact.css" />
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header> <!-- Web page header part. MB -->
+			<div class="navbar">
+				<div class="image">
+			        <img src="../photo/logo_01.jpg" alt="Mo:Mo" /> 
+		        </div>
+	            <ul class="nav1">
+	             <li><a href="../html/index.html">Home</a></li>
+	             <li><a href="../html/about.html">About</a></li>
+	             <li><a href="../html/contact.html" class="active">Contact Us</a></li>
+				</ul>
+				<ul class="nav2">
+	              <li><a href="../php/register.php">SignUp</a></li>
+	             <li><a href="../php/login.php">LogIn</a></li>
+	            </ul>
+		    </div>
+	    </header>
+	    <section id="secondSection" class="contact_info">
+        	<h2><b>Contact Info</b></h2>
+        	<div class="contact">
+	        	<div class="hgh_address">
+	                <p><b>Mo:Mo Shack Inc.</b><br>Bandipur-02, Mohoriya<br>Tanahun, Nepal<br>
+	                Email:<a href="mailto:momoshack01@gmail.com">momoshack01@gmail.com</a><br>Phone: (+977) 1111111111</p>
+	        	</div>
+	        	<div class="ownership">
+	        		<p><b>Owner:</b><br>Mr.Ram B. Bishowkarma &amp; Mrs. Uma Bishowkarma<br>(+977) 9999999999, (+977) 8888888888</p>
+	        		<p><b>Manager:</b><br>Mr. Bibek Bishowkarma<br>(+977) 7777777777</p>
+	        	</div>
+	        	<div class="contact_form">
+	        		<form id="contact" action="#" method="post">
+	        			<fieldset>
+	        				<legend><b>Contact Us</b></legend> 
+	        				<label for="username">Name</label><span class="m_error" id="errName"></span>
+	        				<input type="text" name="name" id="username" placeholder="Enter your name">
+	        				<label for="userphone">Phone</label><span class="m_error" id="errPhone"></span>
+	        				<input type="tel" name="phone" id="userphone" placeholder="000-000-0000">  
+	        				<label for="useremail">Email</label><span class="m_error" id="errEmail"></span>
+	        				<input type="email" name="email" id="useremail" placeholder="example@yahoo.com">
+	        				<label for="usermessage">Message</label><span class="m_error" id="errMessage"></span>
+	        				<textarea id="usermessage" name="message" placeholder="Write something..." style="height: 150px"></textarea>
+	        				<div class="sub_btn">
+                                 <input type="submit" value="Submit" id="submit">
+                            </div>
+                            <div id="error_messsage"></div>
+	        			</fieldset>
+	        		</form>
+	        	</div>
+        	</div>
+        </section>
+        <section class="thirdSection" id="map_info">
+        	<h2>Mo:Mo Shack Inc. | Map</h2>
+        	<div id="map"></div>
+        </section>
+  	<footer>
+	    	<div id="address">
+                <p><b>Mo:Mo Shack Inc.</b><br>Bandipur-02, Mohoriya<br>Tanahun, Nepal<br>
+                Email:<a href="mailto:momoshack01@gmail.com">momoshack01@gmail.com</a><br>Phone: (+977) 1111111111</p>
+	    	</div>
+	    	<div id="logo">
+	    		<p>Follow Us:<br></p>
+	    			<ul>
+	    				<li><a href="#" class="fa fa-facebook-square"></a></li>
+	    				<li><a href="#" class="fa fa-instagram"></a></li>
+	    				<li><a href="#" class="fa fa-twitter-square"></a></li>
+	    				<li><a href="#" class="fa fa-youtube-square"></a></li>
+	    				<li><a href="#" class="fa fa-google" aria-hidden="true"></a></li>
+	    				<li><a href="#" class="fa fa-tripadvisor" aria-hidden="true"></a></li>
+	    			</ul>
+	    		
+	    		<div id="copyright">
+	    			<p>&#169; 2021 momo shack Inc. | All Rights Reserved.</p>
+	    		</div>
+	    	</div>
+	    	<div id="other">
+	    		<ul>
+	    			<li><a href="../html/index.html">Home</a></li>
+	    			<li><a href="../html/about.html">About</a></li>
+	    			<li><a href="../html/review.html">Reviews</a></li>
+	    			<li><a href="../html/contact.html">Contact Us</a></li>
+	    		</ul>
+	    	</div>
+	    </footer>
+	    <script src="../javascript/google-map.js"></script>
+	    <script src="../javascript/validate.js"></script>
+	</body>
+</html>

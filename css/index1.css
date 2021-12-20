@@ -1,0 +1,184 @@
+@charset "utf-8"; 
+
+*{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	 /*background: radial-gradient(circle, #FFFFF0, #DAEE01);*/
+	 background: url('../photo/momo.jpg');
+	 background-repeat: no-repeat;
+	 background-size: 100% 100%;
+} 
+body {
+	margin-left: auto;
+    margin-right: auto;
+    min-width: 769px;
+    width: 100%;
+}
+
+/* Header section */
+header {
+	margin-top: -8px;
+	display: block;
+}
+ .navbar {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgba(37, 141, 56, 0.43);
+	width: 100%;
+	height: 100px;
+	z-index: 1;
+	margin-top: -10px;
+}
+.navbar img {
+    width: 15%;
+	height: 75px;
+	float: left;
+	display: block;
+    margin-top: 15px;
+	border-radius: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-flex;
+    float: left;
+    margin-left: 55px;
+    margin-top: 25px;
+    justify-content: left;
+}
+header .nav1 ul li .active {
+	color: red;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.nav2 {
+    padding-left: 75px;
+}
+.nav1 a:hover, .nav1 a:active {
+    background-color: rgb(51, 51, 45);
+    border-radius: 28px;
+}
+.nav2  a:hover, .nav2  a:active {
+    background-color: rgb(51, 51, 45);
+    border-radius: 28px;
+}
+
+
+/* First section */
+.title {
+	display: block;
+	padding-top: 130px;
+}
+.title h1 {
+	color: tomato;
+	font-weight: bold;
+	font-size: 70px;
+	font-family: 'Trattatello', fantasy;
+	letter-spacing: 4px;
+	text-align: center;
+}
+.title h2 {
+	color: #000000;
+	font-size: 30px;
+	font-family: 'Snell Roundhand', cursive;
+	letter-spacing: 4px;
+	margin-top: -80px;
+	margin-left: 100px;
+	text-align: center;
+}
+.title p {
+	color: #FF0000;
+	font-size: 40px;
+	font-family: 'Snell Roundhand', cursive;
+	letter-spacing: 4px;
+	margin-top: -30px;
+	margin-left: 80px;
+	text-align: center;
+}
+/* Second section */
+.gues_serv {
+	display: block;
+}
+.serv_imgs {
+	padding-left: 20px;
+}
+.serv_imgs img {
+	width: 250px;
+	height: 150px;
+	margin-left: 15px;
+	margin-top: 190px;
+	border-radius: 8px;
+	border: 2px solid black;
+	box-shadow: rgba(28, 14, 21, 0.4) 0px 0px 20px 10px;
+}
+.serv_imgs figcaption {
+	font-family: apple chancery;
+	margin-top: -5px;
+	margin-left: 25%;
+
+}
+.serv {
+	float: left;
+
+}
+
+
+/* Footer section */
+footer {
+		width: 102%;
+		margin-top: 450px;
+		background-color: rgba(31, 122, 46, 0.65);
+}
+#logo ul {
+	list-style: none;
+	display: flex;
+	margin-left: 50px;
+	margin-top: -13px;
+}
+#logo ul li a{
+	padding-left: 10px;
+	color: black;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+#other ul {
+	list-style: none;
+}
+#other ul li a {
+	color: black;
+}
+#address {
+	display: table;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-size: 1.2em;
+}
+#logo {
+	display: table;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -150px;
+	font-size: 1.2em;
+}
+#copyright {
+	margin-top: 45px;
+	font-size: 1em;
+}
+#other {
+	float: right;
+	display: inline-flex;
+	margin-top: -150px;
+	margin-right: 50px;
+	line-height: 1.5em;
+	font-size: 1.2em;
+} 
