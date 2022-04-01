@@ -2,7 +2,7 @@
 function init() {
   var mapOptions = {                 // Set up the map options
     zoom: 18 ,                          
-    center: new google.maps.LatLng(27.937403797913618, 84.40455298787275),
+    center: new google.maps.LatLng(Latitude, Longitude),
     
     mapTypeControl: true,
     mapTypeControlOptions: {
@@ -16,7 +16,7 @@ function init() {
   venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
 
   new google.maps.Marker({                    // add marker
-      position: new google.maps.LatLng(27.937403797913618, 84.40455298787275),
+      position: new google.maps.LatLng(Latitude, Longitude5),
       map: venueMap,
     });
 
